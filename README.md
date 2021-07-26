@@ -83,7 +83,7 @@ the best models showing high R-Squared values turned to be the same as for Lat m
 referred us  to assign a score to t features based on how useful they are at predicting a target variable.Here states played a higher variable importance.
 
 
-# Residuals for Random Forest Regressor Model: 
+### Residuals for Random Forest Regressor Model: 
 the graph showed slightly different distribution on the positive and negative side according to the x-axis. There were outliers which make the residual distribution less symmetrical in comparison to Residuals for ExtraTrees Regressor Model.
 
 
