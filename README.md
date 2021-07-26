@@ -48,38 +48,38 @@ These visualiztions will show past current and predicted future forest inforamti
 
 
 
-### My Personal contribution to the group project
+# My Personal contribution to the group project
 
-# Latitude Longitude Model
+### Latitude Longitude Model
 
 Here we analyzed the graphs based on ml models, and  researched the spread of deforestation within a 10 year period. We used Pycaret for lat and lon models as targets in each of the notebooks. 
 Residuals were used in our machine learning model as they served as differences between observed and predicted values of data. 
 
 
 
-# Residuals for Extra Trees Regressor Model: 
+### Residuals for Extra Trees Regressor Model: 
 
 the graph showed a pattern in the distribution of residuals, the pattern is symmetrical, Test and Train  R-Squared Values are high.
 The Prediction Error tried to represent the Data Mining vs Model Building.
 
 
-# Prediction Error for Extra Trees Regression: 
+### Prediction Error for Extra Trees Regression: 
 the graph showed that our prediction and our model coincides with R-Squared Value of 0.996.
 
 
-# Prediction Error for Random Forest : 
+### Prediction Error for Random Forest : 
 the graph showed that there is a non-significant variance/ variation between our prediction and our model, with R Squared 0.98.
 
 
-# For Lat model: 
+### For Lat model: 
 the best result showed Light Gradient Boosting Model with R-squared score      of 0.99. Other models Extra Trees Regressor, Random Forest and Decision Tree Regressor also showed high R-Squared Value.
 
 
-# Lon model:  
+### Lon model:  
 the best models showing high R-Squared values turned to be the same as for Lat model, they were  Random Forest Regressor, Extra Trees Regressor, Light Gradient Boosting Machine.
 
 
-# Feature importance Plot
+### Feature importance Plot
 referred us  to assign a score to t features based on how useful they are at predicting a target variable.Here states played a higher variable importance.
 
 
@@ -87,13 +87,14 @@ referred us  to assign a score to t features based on how useful they are at pre
 the graph showed slightly different distribution on the positive and negative side according to the x-axis. There were outliers which make the residual distribution less symmetrical in comparison to Residuals for ExtraTrees Regressor Model.
 
 
-# To conclude on Lat and Lon model: 
+### To conclude on Lat and Lon model: 
 we can state that choosing them as targets in machine learning mode was effective and it enabled us to visualize and interpret the results in Tableau.
 We decided to create a machine learning model to  define Lat and Lon and visualize the results in Tableau and - like that- to  analyze the spread of deforestation within  10 years. 
 
 
 
-For prediction of future deforestation based on timeline and lon/lat we went for XGBoost which is an efficient fast highly flexible algorithm and   it works well in small to medium dataset. Our Brazilian dataset can be considered small. The first visualization displays the current condition with deforestation in Brazil. The future prediction model showed that during the next 10 years the area of deforestation based on lon and lat,  on a big scale, will remain the same, new concentrated deforestation areas will appear. What is more important -- the process of deforestation is not showing any tendency to decrease. We also tried to define  the next 1000 deforestation  locations based on predicted lon and lat. As we can see these new areas will also appear within the current main designated deforestation area. They are here on the map.
+### For prediction of future deforestation based on timeline and lon/lat
+we went for XGBoost which is an efficient fast highly flexible algorithm and   it works well in small to medium dataset. Our Brazilian dataset can be considered small. The first visualization displays the current condition with deforestation in Brazil. The future prediction model showed that during the next 10 years the area of deforestation based on lon and lat,  on a big scale, will remain the same, new concentrated deforestation areas will appear. What is more important -- the process of deforestation is not showing any tendency to decrease. We also tried to define  the next 1000 deforestation  locations based on predicted lon and lat. As we can see these new areas will also appear within the current main designated deforestation area. They are here on the map.
 
 
 Talking about data limitations:  the data set is only for Brazil and does not incorporate major technological environmental or political impacts. 
