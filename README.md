@@ -50,36 +50,45 @@ These visualiztions will show past current and predicted future forest inforamti
 
 ### My Personal contribution to the group project
 
-Latitude Longitude Model
+# Latitude Longitude Model
 
 Here we analyzed the graphs based on ml models, and  researched the spread of deforestation within a 10 year period. We used Pycaret for lat and lon models as targets in each of the notebooks. 
 Residuals were used in our machine learning model as they served as differences between observed and predicted values of data. 
 
 
 
-Residuals for Extra Trees Regressor Model: 
+# Residuals for Extra Trees Regressor Model: 
 
 the graph showed a pattern in the distribution of residuals, the pattern is symmetrical, Test and Train  R-Squared Values are high.
 The Prediction Error tried to represent the Data Mining vs Model Building.
 
 
-Prediction Error for Extra Trees Regression: the graph showed that our prediction and our model coincides with R-Squared Value of 0.996.
+# Prediction Error for Extra Trees Regression: 
+the graph showed that our prediction and our model coincides with R-Squared Value of 0.996.
 
 
-Prediction Error for Random Forest : the graph showed that there is a non-significant variance/ variation between our prediction and our model, with R Squared 0.98.
+# Prediction Error for Random Forest : 
+the graph showed that there is a non-significant variance/ variation between our prediction and our model, with R Squared 0.98.
 
 
-For Lat model :the best result showed Light Gradient Boosting Model with R-squared score      of 0.99. Other models Extra Trees Regressor, Random Forest and Decision Tree Regressor also showed high R-Squared Value.
-Lon model:  the best models showing high R-Squared values turned to be the same as for Lat model, they were  Random Forest Regressor, Extra Trees Regressor, Light Gradient Boosting Machine.
+# For Lat model: 
+the best result showed Light Gradient Boosting Model with R-squared score      of 0.99. Other models Extra Trees Regressor, Random Forest and Decision Tree Regressor also showed high R-Squared Value.
 
 
-Feature importance Plot referred us  to assign a score to t features based on how useful they are at predicting a target variable.Here states played a higher variable importance.
+# Lon model:  
+the best models showing high R-Squared values turned to be the same as for Lat model, they were  Random Forest Regressor, Extra Trees Regressor, Light Gradient Boosting Machine.
 
 
-Residuals for Random Forest Regressor Model: the graph showed slightly different distribution on the positive and negative side according to the x-axis. There were outliers which make the residual distribution less symmetrical in comparison to Residuals for ExtraTrees Regressor Model.
+# Feature importance Plot
+referred us  to assign a score to t features based on how useful they are at predicting a target variable.Here states played a higher variable importance.
 
 
-To conclude on Lat and Lon model: we can state that choosing them as targets in machine learning mode was effective and it enabled us to visualize and interpret the results in Tableau.
+# Residuals for Random Forest Regressor Model: 
+the graph showed slightly different distribution on the positive and negative side according to the x-axis. There were outliers which make the residual distribution less symmetrical in comparison to Residuals for ExtraTrees Regressor Model.
+
+
+# To conclude on Lat and Lon model: 
+we can state that choosing them as targets in machine learning mode was effective and it enabled us to visualize and interpret the results in Tableau.
 We decided to create a machine learning model to  define Lat and Lon and visualize the results in Tableau and - like that- to  analyze the spread of deforestation within  10 years. 
 
 
