@@ -71,6 +71,10 @@ The Prediction Error tried to represent the Data Mining vs Model Building.
 the graph showed that our prediction and our model coincides with R-Squared Value of 0.996.
 
 
+
+![final_project_mycontr](https://user-images.githubusercontent.com/68763904/127590461-36ca96e8-7a91-4ace-b7b0-0509600583ac.PNG)
+
+
 ### Prediction Error for Random Forest : 
 the graph showed that there is a non-significant variance/ variation between our prediction and our model, with R Squared 0.98.
 
