@@ -52,8 +52,12 @@ These visualiztions will show past current and predicted future forest inforamti
 
 ### Latitude Longitude Model
 
+![final_project_my cont](https://user-images.githubusercontent.com/68763904/127590267-8aff73b9-87cb-4bd7-be86-eaca8d19983f.PNG)
+
 Here we analyzed the graphs based on ml models, and  researched the spread of deforestation within a 10 year period. We used Pycaret for lat and lon models as targets in each of the notebooks. 
 Residuals were used in our machine learning model as they served as differences between observed and predicted values of data. 
+
+
 
 
 
@@ -83,6 +87,9 @@ the best models showing high R-Squared values turned to be the same as for Lat m
 referred us  to assign a score to t features based on how useful they are at predicting a target variable.Here states played a higher variable importance.
 
 
+
+![final_project_mycontr](https://user-images.githubusercontent.com/68763904/127590354-eee262c1-799e-4c65-bed4-466733d9c86d.PNG)
+
 ### Residuals for Random Forest Regressor Model: 
 the graph showed slightly different distribution on the positive and negative side according to the x-axis. There were outliers which make the residual distribution less symmetrical in comparison to Residuals for ExtraTrees Regressor Model.
 
@@ -96,8 +103,11 @@ We decided to create a machine learning model to  define Lat and Lon and visuali
 ### For prediction of future deforestation based on timeline and lon/lat
 we went for XGBoost which is an efficient fast highly flexible algorithm and   it works well in small to medium dataset. Our Brazilian dataset can be considered small. The first visualization displays the current condition with deforestation in Brazil. The future prediction model showed that during the next 10 years the area of deforestation based on lon and lat,  on a big scale, will remain the same, new concentrated deforestation areas will appear. What is more important -- the process of deforestation is not showing any tendency to decrease. We also tried to define  the next 1000 deforestation  locations based on predicted lon and lat. As we can see these new areas will also appear within the current main designated deforestation area. They are here on the map.
 
-
 Talking about data limitations:  the data set is only for Brazil and does not incorporate major technological environmental or political impacts. 
 
+# Machine Learning: Satellite Imaginery Recognition
+
+
+# Project Perspectives
 We plan to develop and expand our project with  drone photography besides satellite images used in our current project. And to consider possible deforestation advantages vs disadvantages for Brazil economy.
 
